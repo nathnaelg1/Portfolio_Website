@@ -1,0 +1,140 @@
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.figure {
+    display: inline-block;
+}
+
+.figure-img {
+    margin-bottom: 0.5rem;
+    line-height: 1;
+}
+
+.figure-caption {
+    font-size: 0.875em;
+    color: #6c757d;
+}
+
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) * -.5);
+    margin-left: calc(var(--bs-gutter-x) * -.5);
+}
+
+.row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+}
+
+.col {
+    flex: 1 0 0%;
+}
+
+
+.col-sm-12 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+
+.col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+
+
+.col-lg-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+
+
+.col-xl-12 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+
+.col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+
+
+    .display-3 {
+        font-family: "Poppins", sans-serif;
+    }
+
+    .display-3--title {
+        font-size: 3rem;
+        text-transform: capitalize;
+        font-weight: 600;
+        font-family: "Poppins", sans-serif;
+        display: inline-block;
+        background-image: linear-gradient(to right, #9926f0, #d122e3);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    @media (min-width: 992px) {
+        .display-3--title {
+            font-size: 3rem;
+        }
+    }
+
+
+    .services {
+        position: relative;
+        padding: 1rem 0;
+        background: white;
+    }
+
+    .services__content {
+        padding: 1rem;
+        margin-top: 0;
+    }
+
+    .services__content p {
+        font-size: 0.8rem;
+    }
+
+    @media (min-width: 992px) {
+        .services__content p {
+            font-size: 1rem;
+        }
+    }
+
+    @media (min-width: 992px) {
+        .services__content {
+            margin-top: 5rem;
+        }
+    }
+
+    .services__content .icon {
+        font-size: 1.5rem;
+        color: #9926f0;
+    }
+
+    @media (min-width: 992px) {
+        .services__content .icon {
+            font-size: 2.5rem;
+        }
+    }
+
+    .services__pic {
+        max-width: 100%;
+    }
+}
